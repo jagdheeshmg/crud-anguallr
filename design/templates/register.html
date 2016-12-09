@@ -1,0 +1,11 @@
+<h1>Register Now</h1>
+<h2>{{ regCtrl.message }}</h2>
+<form class="" action="index.html" method="post">
+  Enter Name :<input type="text" ng-model="regCtrl.fm.name" value=""><br>
+  Enter Username :<input type="text" ng-model="regCtrl.fm.username" value=""><br>
+    Enter password :<input type="password" ng-model="regCtrl.fm.password" value=""><br>
+  <input type="button" name="submit" value="Submit" ng-click="regCtrl.register(regCtrl.fm);"><br>
+</form>
+
+<hr>
+<a  ui-sref="login"> Login</a>

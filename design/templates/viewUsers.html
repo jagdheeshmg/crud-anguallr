@@ -1,0 +1,21 @@
+view user
+
+
+<table >
+		<tr >
+		<th>ID</th>  
+		<th>name</th>  
+		<th>Username</th>  
+		 
+		 
+			
+		  </tr>
+		  <tr ng-repeat="row in viewlogCtrl.userdata">
+		<td> {{ row._id }}</td>  
+		<td> {{ row.name }} </td>  
+		<td> {{ row.username }}</td>  
+		
+		
+		
+         </tr>
+		  </table>
